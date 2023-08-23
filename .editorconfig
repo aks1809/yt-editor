@@ -1,0 +1,20 @@
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# For more information about the properties used in this file, please see the documentation:
+# https://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style line endings
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# TypeScript files
+[*.ts]
+# Use 2 spaces for indentation in TypeScript files
+indent_size = 2
